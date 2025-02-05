@@ -28,7 +28,7 @@ const sendMessage= async () => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${API_KEY}`
+                "Authorization": `Bearer ${apiKey}`
             },
             body: JSON.stringify(requestBody)
         });
