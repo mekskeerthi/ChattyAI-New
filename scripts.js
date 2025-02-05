@@ -2,9 +2,9 @@ const sendMessage= async () => {
     const userPrompt = document.getElementById('userPrompt').value;
     const responseDiv = document.getElementById('response');
     responseDiv.innerHTML = '<em>Loading...</em>';
-    const API_KEY = "__GROQ_API_KEY__"; // Placeholder, will be replaced during deployment
+    //const API_KEY = "__GROQ_API_KEY__"; // Placeholder, will be replaced during deployment
     //const apiKey = process.env.GROQ_API_KEY; // Use environment variable for security
-   // const apiKey =  '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'
+    const apiKey =  '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'
     const apiUrl = "https://api.groq.com/openai/v1/chat/completions";
 
 
